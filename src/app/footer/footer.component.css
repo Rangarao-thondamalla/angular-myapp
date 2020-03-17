@@ -1,0 +1,7 @@
+footer.footer.mt-auto.py-3 {
+   position: fixed;
+  bottom:0px;
+  text-align: center;
+  width: 100%;
+  background: #cccccc;
+}
