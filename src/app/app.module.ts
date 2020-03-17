@@ -8,8 +8,15 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainContentComponent } from './main-content/main-content.component';
 
+
+import { MatSliderModule } from '@angular/material/slider';
+
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
+  imports:      [ 
+    BrowserModule, 
+    FormsModule,
+    MatSliderModule
+   ],
   declarations: [ AppComponent, HelloComponent, NavbarComponent, FooterComponent, MainContentComponent ],
   bootstrap:    [ AppComponent ]
 })
